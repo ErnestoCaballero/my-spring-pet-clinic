@@ -11,7 +11,7 @@
 
 	<groupId>com.ernesto</groupId>
 	<artifactId>my-spring-pet-clinic</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 
 	<name>my-spring-pet-clinic</name>
 	<description>Spring Pet Clinic following SpringFramework Guru Course</description>
@@ -56,7 +56,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:ErnestoCaballero/my-spring-pet-clinic.git</developerConnection>
-	  <tag>my-spring-pet-clinic-0.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 </project>
