@@ -7,4 +7,7 @@ import java.io.FileWriter;
 
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
 
+    Owner findByLastName(String lastName);
+
+
 }
