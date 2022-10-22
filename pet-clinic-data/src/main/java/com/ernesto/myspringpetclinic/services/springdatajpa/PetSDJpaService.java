@@ -3,10 +3,14 @@ package com.ernesto.myspringpetclinic.services.springdatajpa;
 import com.ernesto.myspringpetclinic.model.Pet;
 import com.ernesto.myspringpetclinic.repositories.PetRepository;
 import com.ernesto.myspringpetclinic.services.PetService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
+@Profile("springdatajpa")
 public class PetSDJpaService implements PetService {
      private final PetRepository petRepository;
 
